@@ -1,0 +1,29 @@
+E:\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\CustomClassLibrary\obj\Debug\netstandard2.0\CustomClassLibrary.csprojAssemblyReference.cache
+E:\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\CustomClassLibrary\obj\Debug\netstandard2.0\CustomClassLibrary.AssemblyInfoInputs.cache
+E:\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\CustomClassLibrary\obj\Debug\netstandard2.0\CustomClassLibrary.AssemblyInfo.cs
+E:\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\CustomClassLibrary\obj\Debug\netstandard2.0\CustomClassLibrary.csproj.CoreCompileInputs.cache
+E:\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\CustomClassLibrary\bin\Debug\netstandard2.0\CustomClassLibrary.deps.json
+E:\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\CustomClassLibrary\bin\Debug\netstandard2.0\CustomClassLibrary.dll
+E:\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\CustomClassLibrary\bin\Debug\netstandard2.0\CustomClassLibrary.pdb
+E:\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\CustomClassLibrary\obj\Debug\netstandard2.0\CustomClassLibrary.dll
+E:\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\CustomClassLibrary\obj\Debug\netstandard2.0\CustomClassLibrary.pdb
+F:\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\CustomClassLibrary\bin\Debug\netstandard2.0\CustomClassLibrary.deps.json
+F:\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\CustomClassLibrary\bin\Debug\netstandard2.0\CustomClassLibrary.dll
+F:\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\CustomClassLibrary\bin\Debug\netstandard2.0\CustomClassLibrary.pdb
+F:\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\CustomClassLibrary\obj\Debug\netstandard2.0\CustomClassLibrary.AssemblyInfoInputs.cache
+F:\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\CustomClassLibrary\obj\Debug\netstandard2.0\CustomClassLibrary.AssemblyInfo.cs
+F:\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\CustomClassLibrary\obj\Debug\netstandard2.0\CustomClassLibrary.csproj.CoreCompileInputs.cache
+F:\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\CustomClassLibrary\obj\Debug\netstandard2.0\CustomClassLibrary.dll
+F:\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\CustomClassLibrary\obj\Debug\netstandard2.0\CustomClassLibrary.pdb
+F:\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\CustomClassLibrary\obj\Debug\netstandard2.0\CustomClassLibrary.csproj.AssemblyReference.cache
+F:\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\CustomClassLibrary\obj\Debug\netstandard2.0\CustomClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\CustomClassLibrary\bin\Debug\netstandard2.0\CustomClassLibrary.deps.json
+C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\CustomClassLibrary\bin\Debug\netstandard2.0\CustomClassLibrary.dll
+C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\CustomClassLibrary\bin\Debug\netstandard2.0\CustomClassLibrary.pdb
+C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\CustomClassLibrary\obj\Debug\netstandard2.0\CustomClassLibrary.csproj.AssemblyReference.cache
+C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\CustomClassLibrary\obj\Debug\netstandard2.0\CustomClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\CustomClassLibrary\obj\Debug\netstandard2.0\CustomClassLibrary.AssemblyInfoInputs.cache
+C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\CustomClassLibrary\obj\Debug\netstandard2.0\CustomClassLibrary.AssemblyInfo.cs
+C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\CustomClassLibrary\obj\Debug\netstandard2.0\CustomClassLibrary.csproj.CoreCompileInputs.cache
+C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\CustomClassLibrary\obj\Debug\netstandard2.0\CustomClassLibrary.dll
+C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\CustomClassLibrary\obj\Debug\netstandard2.0\CustomClassLibrary.pdb

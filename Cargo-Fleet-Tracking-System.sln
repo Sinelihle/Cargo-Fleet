@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cargo-Fleet-Tracking-System", "Cargo-Fleet-Tracking-System.csproj", "{175F3F67-9E6F-4919-B62B-733DB0DCD1FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomClassLibrary", "CustomClassLibrary\CustomClassLibrary.csproj", "{3861D838-40A0-445A-8607-C6BBEC1C4C36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{175F3F67-9E6F-4919-B62B-733DB0DCD1FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{175F3F67-9E6F-4919-B62B-733DB0DCD1FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{175F3F67-9E6F-4919-B62B-733DB0DCD1FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{175F3F67-9E6F-4919-B62B-733DB0DCD1FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3861D838-40A0-445A-8607-C6BBEC1C4C36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3861D838-40A0-445A-8607-C6BBEC1C4C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3861D838-40A0-445A-8607-C6BBEC1C4C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3861D838-40A0-445A-8607-C6BBEC1C4C36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C470241-D496-444A-9BE8-9A1E7D031AA1}
+	EndGlobalSection
+EndGlobal

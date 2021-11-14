@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "175f3f67-9e6f-4919-b62b-733db0dcd1fe": {
+      "ProjectGuid": "175f3f67-9e6f-4919-b62b-733db0dcd1fe",
+      "DisplayName": "Cargo-Fleet-Tracking-System",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "3861d838-40a0-445a-8607-c6bbec1c4c36": {
+      "ProjectGuid": "3861d838-40a0-445a-8607-c6bbec1c4c36",
+      "DisplayName": "CustomClassLibrary",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

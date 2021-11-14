@@ -1,0 +1,30 @@
+﻿<Page x:Class="Cargo_Fleet_Tracking_System.ServicePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Cargo_Fleet_Tracking_System"
+      mc:Ignorable="d" d:DesignWidth="800"
+      Title="ServicePage" Height="593">
+
+    <Grid Background="#FFD6D6D6" Margin="0,0,154,0">
+        <Button x:Name="dailyBtn" Content="Daily" HorizontalAlignment="Left" Margin="30,350,0,0" VerticalAlignment="Top" Height="23" Width="74" Click="dailyBtn_Click"/>
+        <Button x:Name="weeklyBtn" Content="Weekly" HorizontalAlignment="Left" Margin="132,350,0,0" VerticalAlignment="Top" Height="23" Width="76" Click="weeklyBtn_Click"/>
+        <Label Content="Vehicle Number" HorizontalAlignment="Left" Margin="30,83,0,0" VerticalAlignment="Top"/>
+        <Label Content="Services to be performed" HorizontalAlignment="Left" Margin="30,183,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label Content="Procedure Code" HorizontalAlignment="Left" Margin="30,233,0,0" VerticalAlignment="Top" Width="140"/>
+        <Label Content="Description" HorizontalAlignment="Left" Margin="30,268,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label Content="Appointment Date" HorizontalAlignment="Left" Margin="30,132,0,0" VerticalAlignment="Top"/>
+        <Label Content="Schedule Service" FontSize="15" FontWeight="DemiBold" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="229,32,0,0" VerticalAlignment="Top" Height="38" Width="124"/>
+        <TextBox x:Name="txtVehicleNo" HorizontalAlignment="Left" Margin="170,87,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="30" Width="100" Background="LightGray" BorderBrush="RoyalBlue"/>
+        <TextBox x:Name="txtService" HorizontalAlignment="Left" Margin="170,183,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="30" Width="100" Background="LightGray" BorderBrush="RoyalBlue"/>
+        <TextBox x:Name="txtCode" HorizontalAlignment="Left" Margin="170,233,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="30" Width="100" Background="LightGray" BorderBrush="RoyalBlue"/>
+        <TextBox x:Name="txtDescription" HorizontalAlignment="Left" Margin="170,281,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="30" Width="100" Background="LightGray" BorderBrush="RoyalBlue"/>
+        <DataGrid x:Name="weeklyGrid" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="291,121,10,299"/>
+        <DatePicker x:Name="appointDate" HorizontalAlignment="Left" Margin="170,134,0,0" VerticalAlignment="Top"/>
+        <Label Content="Daily Service" FontWeight="Bold" HorizontalAlignment="Left" Margin="291,336,0,0" VerticalAlignment="Top" Width="182"/>
+        <Label Content="Weekly Services" FontWeight="Bold" HorizontalAlignment="Left" Margin="291,84,0,0" VerticalAlignment="Top" Width="182"/>
+        <DataGrid x:Name="dailyGrid" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="291,384,10,36"/>
+
+    </Grid>
+</Page>

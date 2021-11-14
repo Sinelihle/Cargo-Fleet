@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "BivaZHqbOKKDqbXPIeL6AdSMJoHN8nK3jF7XroNjvVE+XhOsf+lLh5ESxeCSvl3/J8YYeXXqxv0YkLtxQ6zEAw==",
+  "success": true,
+  "projectFilePath": "C:\\Cargo Final\\Cargo-Fleet-Tracking-System\\Cargo-Fleet-Tracking-System\\CustomClassLibrary\\CustomClassLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sinel\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\sinel\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
