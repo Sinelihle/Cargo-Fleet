@@ -1,0 +1,24 @@
+﻿<Window x:Class="Cargo_Fleet_Tracking_System.CallServices"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cargo_Fleet_Tracking_System"
+        mc:Ignorable="d"
+        Title="CallServices" Height="450" Width="769" SizeToContent="Manual">
+    <Grid Background="#FFD6D6D6" Margin="0,0,0,0">
+        <Label Content="Vehicle Number" HorizontalAlignment="Left" Margin="30,83,0,0" VerticalAlignment="Top"/>
+        <Label Content="Service Type" HorizontalAlignment="Left" Margin="30,130,0,0" VerticalAlignment="Top"/>
+        <Label Content="Appointment Date" HorizontalAlignment="Left" Margin="30,174,0,0" VerticalAlignment="Top"/>
+        <Label Content="Work To be completed" HorizontalAlignment="Left" Margin="30,215,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtVehicleNo" HorizontalAlignment="Left" Margin="173,79,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="30" Width="100" Background="LightGray" BorderBrush="RoyalBlue"/>
+        <TextBox x:Name="txtServiceType" HorizontalAlignment="Left" Margin="173,130,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="30" Width="100" Background="LightGray" BorderBrush="RoyalBlue"/>
+        <DatePicker x:Name="dateAppoint" HorizontalAlignment="Left" Margin="173,174,0,0" VerticalAlignment="Top" Height="30" Width="100"/>
+        <TextBox x:Name="txtCompleted" HorizontalAlignment="Left" Margin="173,215,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="30" Width="100" Background="LightGray" BorderBrush="RoyalBlue"/>
+        <Label Content="Call Service" FontSize="17" FontWeight="Black" HorizontalAlignment="Left" Margin="30,30,0,0" VerticalAlignment="Top" Width="193" Height="28"/>
+        <DataGrid x:Name="gridData" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="30,270,143,59"/>
+        <Button x:Name="okBtn" Content="OK" HorizontalAlignment="Left" Margin="40,380,0,0" VerticalAlignment="Top" Height="30" Width="74" Click="okBtn_Click"/>
+        <Button x:Name="backBtn" Content="Back" HorizontalAlignment="Left" Margin="146,380,0,0" VerticalAlignment="Top" Width="77" Height="30" Click="backBtn_Click"/>
+
+    </Grid>
+</Window>

@@ -8,11 +8,11 @@
       d:DesignHeight="450"
       Title="DashboardPage" Width="812">
 
-    <Grid Background="#FFD6D6D6" Margin="0,0,154,0">
+    <Grid Background="#FFD6D6D6" Margin="0,0,154,0" Loaded="Grid_Loaded">
         <TextBlock HorizontalAlignment="Left" Margin="10,127,0,0" TextWrapping="Wrap" Text="Current report for vehicle" VerticalAlignment="Top" Height="36" Width="295" FontSize="20" Foreground="#FF2A5CB4" FontWeight="Bold"/>
-        <ListBox HorizontalAlignment="Left" Height="287" Margin="10,163,0,0" VerticalAlignment="Top" Width="458" Background="#FFD6D6D6"/>
         <TextBox HorizontalAlignment="Left" Height="41" TextWrapping="Wrap" Text="Dashboard" VerticalAlignment="Top" Width="468" Background="#FFD6D6D6" FontSize="20" Foreground="#FF363131" SelectionBrush="#FFABADB3" IsReadOnly="True"/>
         <Rectangle Fill="#FFD6D6D6" HorizontalAlignment="Left" Height="163" Margin="468,0,0,0" Stroke="#FFABADB3" VerticalAlignment="Top" Width="185"/>
         <TextBlock HorizontalAlignment="Left" Margin="501,7,0,0" TextWrapping="Wrap" Text="Vehicle Activity" VerticalAlignment="Top" Height="41" Width="176" FontSize="14" Foreground="#FF38C30F" FontWeight="Bold"/>
+        <DataGrid x:Name="vehicleData" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,168,190,10"/>
     </Grid>
 </Page>

@@ -24,6 +24,7 @@ namespace Cargo_Fleet_Tracking_System
         SqlConnection con;
         SqlCommand cmd;
 
+       
         public Login()
         {
             InitializeComponent();
@@ -31,6 +32,17 @@ namespace Cargo_Fleet_Tracking_System
 
         private void btnSignIn_Click(object sender, RoutedEventArgs e)
         {
+          
+            if (txtUserName.Text == "" || pdbPassword.Password == "")
+            {
+                MessageBox.Show("Please Enter Both Fields");
+            }
+            else if(pdbPassword.Password.Length < 8)
+            {
+                MessageBox.Show("Password must be at least 8 characters. ");
+            }
+            else
+            {
                 try
                 {
                     con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\sinel\\Documents\\UserLog.mdf;Integrated Security=True;Connect Timeout=30");
@@ -51,6 +63,8 @@ namespace Cargo_Fleet_Tracking_System
 
                     MessageBox.Show(E.Message);
                 }
+            }
+           
         }
     }
 }

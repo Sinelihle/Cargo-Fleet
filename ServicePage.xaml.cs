@@ -132,5 +132,11 @@ namespace Cargo_Fleet_Tracking_System
             DailyData();
             ShowDailyData();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            CallServices serv = new CallServices();
+            serv.Show();
+        }
     }
 }

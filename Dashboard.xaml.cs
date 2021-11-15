@@ -71,7 +71,7 @@ namespace Cargo_Fleet_Tracking_System
         }
 
 
-        
+
         private void ListViewItem_Selected_Employees(object sender, RoutedEventArgs e)
         {
             Main.Content = new EmployeesPage();
@@ -94,7 +94,12 @@ namespace Cargo_Fleet_Tracking_System
 
         private void Services_Selected(object sender, RoutedEventArgs e)
         {
-            Main.Content = new ServicePage();   
+            Main.Content = new ServicePage();
+        }
+        //change startup to dashboard, change it back to login
+        private void TripsPgae_Selected(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new TripsPage();
         }
     }
 }

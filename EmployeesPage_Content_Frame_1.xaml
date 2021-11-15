@@ -9,7 +9,7 @@
       Title="EmployeesPage_Content_Frame_1">
 
     <Grid Background="LightGray" Width="318" Height="409">
-        <TextBox Margin="10,10,102,370" Background="LightGray" Text="search user" FontSize="20">
+        <TextBox Margin="10,10,198,370" Background="LightGray" Text="search user" FontSize="20">
             <TextBox.Resources>
                 <Style TargetType="{x:Type Border}">
                     <Setter Property="CornerRadius" Value="8"/>

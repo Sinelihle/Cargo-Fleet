@@ -15,7 +15,6 @@
         </Grid.ColumnDefinitions>
         <TextBox HorizontalAlignment="Left" Height="41" TextWrapping="Wrap" Text="Profile" VerticalAlignment="Top" Width="450" Background="#FFD6D6D6" FontSize="20" Foreground="#FF363131" SelectionBrush="#FFABADB3" IsReadOnly="True" Grid.ColumnSpan="2"/>
         <Button x:Name="btnEditProfile" Content="Edit Profile" HorizontalAlignment="Left" Margin="0,41,0,0" VerticalAlignment="Top" Width="132" Height="27" Grid.ColumnSpan="2" Click="btnEditProfile_Click"/>
-        <Button x:Name="btnEditProfile_Copy" Content="Password" HorizontalAlignment="Left" Margin="0,68,0,0" VerticalAlignment="Top" Width="132" Height="27" Grid.ColumnSpan="2"/>
         <Frame x:Name="ProfileFrame" Content="" HorizontalAlignment="Left" Height="409" Margin="113,41,0,0" VerticalAlignment="Top" Width="649" Grid.Column="1"/>
 
     </Grid>

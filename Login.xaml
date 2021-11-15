@@ -83,5 +83,13 @@
             FontFamily="Arial" Style="{DynamicResource RoundedBorderStyle}" Height="26" FontSize="11" FontWeight="Bold"
                 />
         <Image HorizontalAlignment="Left" Height="368" VerticalAlignment="Top" Width="499" Source="Picture1.jpg" Margin="293,0,0,0" Grid.ColumnSpan="2"/>
+        <Label Content="Login As:" HorizontalAlignment="Left" Margin="41,320,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="comboUserType" HorizontalAlignment="Left" Margin="146,324,0,0" VerticalAlignment="Top" Width="120" x:FieldModifier="internal">
+                <ComboBoxItem  Content="Office Manager"/>
+                <ComboBoxItem Content="Vehicle Administrator"/>
+                <ComboBoxItem Content="Trip Manager"/>
+                <ComboBoxItem Content="Service Manager"/>
+                <ComboBoxItem Content="Timesheet Manager"/>
+        </ComboBox>
     </Grid>
 </Window>

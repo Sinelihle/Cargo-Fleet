@@ -7,8 +7,12 @@
         mc:Ignorable="d"
         Title="Dashboard" Height="574.5" Width="972.5">
     <Grid Background="#FFD6D6D6">
-        <Frame x:Name="Main" Margin="149,0,1,0" NavigationUIVisibility="Hidden" />
-        <Grid x:Name="sidePanel" Background="White" HorizontalAlignment="Left" Width="150">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="81*"/>
+            <RowDefinition Height="478*"/>
+        </Grid.RowDefinitions>
+        <Frame x:Name="Main" Margin="149,0,0,0" NavigationUIVisibility="Hidden" Grid.RowSpan="2" />
+        <Grid x:Name="sidePanel" Background="White" HorizontalAlignment="Left" Width="150" Grid.RowSpan="2">
             <StackPanel>
                 <Grid Height="52" Background="White">
                     <Button HorizontalAlignment="Right" Height="20" VerticalAlignment="Top" BorderBrush="Transparent" Click="Button_Click" Width="37">
@@ -156,8 +160,42 @@
                         </StackPanel>
 
                     </ListViewItem>
+                    <ListViewItem x:Name="TripsPgae" Height="30" Width="150" Selected="TripsPgae_Selected">
+                        <ListViewItem.Background>
+                            <ImageBrush ImageSource="vehicle.png" Stretch="Uniform">
+                                <ImageBrush.Transform>
+                                    <TransformGroup>
+                                        <ScaleTransform/>
+                                        <SkewTransform/>
+                                        <RotateTransform/>
+                                        <TranslateTransform X="-59"/>
+                                    </TransformGroup>
+                                </ImageBrush.Transform>
+                            </ImageBrush>
+                        </ListViewItem.Background>
+                        <StackPanel Orientation="Horizontal">
 
+                            <TextBlock Margin="36 0 0 0" Text="Trips" VerticalAlignment="Center" Foreground="#FF7E7E7E"/>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem x:Name="trackHours" Height="30"  Width="150">
+                        <ListViewItem.Background>
+                            <ImageBrush ImageSource="employees.png" Stretch="Uniform">
+                                <ImageBrush.Transform>
+                                    <TransformGroup>
+                                        <ScaleTransform/>
+                                        <SkewTransform/>
+                                        <RotateTransform/>
+                                        <TranslateTransform X="-59"/>
+                                    </TransformGroup>
+                                </ImageBrush.Transform>
+                            </ImageBrush>
+                        </ListViewItem.Background>
+                        <StackPanel Orientation="Horizontal">
 
+                            <TextBlock Margin="36 0 0 0" Text="Track Hours" VerticalAlignment="Center" Foreground="#FF7E7E7E"/>
+                        </StackPanel>
+                    </ListViewItem>
                 </ListView>
             </StackPanel>
         </Grid>

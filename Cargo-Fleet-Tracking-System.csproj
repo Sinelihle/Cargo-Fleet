@@ -55,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="CallServices.xaml.cs">
+      <DependentUpon>CallServices.xaml</DependentUpon>
+    </Compile>
     <Compile Include="EmployeesPage_Content_Frame_1.xaml.cs">
       <DependentUpon>EmployeesPage_Content_Frame_1.xaml</DependentUpon>
     </Compile>
@@ -70,9 +73,16 @@
     <Compile Include="ServicePage.xaml.cs">
       <DependentUpon>ServicePage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TripsPage.xaml.cs">
+      <DependentUpon>TripsPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="VehiclePage.xaml.cs">
       <DependentUpon>VehiclePage.xaml</DependentUpon>
     </Compile>
+    <Page Include="CallServices.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Dashboard.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -122,6 +132,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="ServicePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TripsPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

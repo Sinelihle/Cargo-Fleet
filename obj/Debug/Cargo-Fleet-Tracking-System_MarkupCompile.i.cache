@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\App.xaml
-10-464096896
+121516634003
 
-15-477838260
+171897148313
 152019491503
-Dashboard.xaml;DashboardPage.xaml;EmployeesPage.xaml;EmployeesPage_Content_Frame_1.xaml;EmployeesPage_Content_Frame_2.xaml;Login.xaml;ProfilePage.xaml;ProfilePage_Content_Frame.xaml;ServicePage.xaml;VehiclePage.xaml;
+CallServices.xaml;Dashboard.xaml;DashboardPage.xaml;EmployeesPage.xaml;EmployeesPage_Content_Frame_1.xaml;EmployeesPage_Content_Frame_2.xaml;Login.xaml;ProfilePage.xaml;ProfilePage_Content_Frame.xaml;ServicePage.xaml;TripsPage.xaml;VehiclePage.xaml;
 
 True
 

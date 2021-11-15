@@ -43,13 +43,9 @@ namespace Cargo_Fleet_Tracking_System
                 string data = dr.GetString(0);
                 lstUsers.Items.Add(data);
             }
-            //DataTable dt = new DataTable();
-            //SqlDataAdapter adapt = new SqlDataAdapter(cmd);
-            //adapt.Fill(dt);
-            //lstUsers.ItemsSource = dt.DefaultView;
-            //adapt.Update(dt);
-            ////UserData.Items.Add(dt);
             con.Close();
         }
-    }
+         
+        }
 }
+

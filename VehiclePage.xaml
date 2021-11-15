@@ -9,6 +9,23 @@
       Title="VehiclePage">
 
     <Grid Background="LightGray">
-        <TextBox HorizontalAlignment="Left" Height="41" TextWrapping="Wrap" Text="Vehicle" VerticalAlignment="Top" Width="450" Background="#FFD6D6D6" FontSize="20" Foreground="#FF363131" SelectionBrush="#FFABADB3" IsReadOnly="True"/>
+        <TextBox FontWeight="DemiBold" HorizontalAlignment="Left" Height="41" TextWrapping="Wrap" Text="Vehicle" VerticalAlignment="Top" Width="450" Background="#FFD6D6D6" FontSize="20" Foreground="#FF363131" SelectionBrush="#FFABADB3" IsReadOnly="True"/>
+        <Label Content="Vehicle No" HorizontalAlignment="Left" Margin="38,46,0,0" VerticalAlignment="Top"/>
+        <Label Content="Registration Number" HorizontalAlignment="Left" Margin="38,83,0,0" VerticalAlignment="Top"/>
+        <Label Content="Vehicle Type" HorizontalAlignment="Left" Margin="38,114,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.448,1.261"/>
+        <Label Content="Manufacturer" HorizontalAlignment="Left" Margin="37,153,0,0" VerticalAlignment="Top"/>
+        <Label Content="Engine Size" HorizontalAlignment="Left" Margin="37,197,0,0" VerticalAlignment="Top"/>
+        <Label Content="Current Reading" HorizontalAlignment="Left" Margin="30,282,0,0" VerticalAlignment="Top"/>
+        <Label Content="Odometer Reading" FontWeight="DemiBold" HorizontalAlignment="Left" Margin="34,249,0,0" VerticalAlignment="Top"/>
+        <Label Content="Next Service Reading" HorizontalAlignment="Left" Margin="31,328,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtVehicleNo" HorizontalAlignment="Left" Margin="175,46,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="30" Width="100" Background="LightGray" BorderBrush="RoyalBlue"/>
+        <TextBox x:Name="txtregistration" HorizontalAlignment="Left" Margin="175,81,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="30" Width="100" Background="LightGray" BorderBrush="RoyalBlue"/>
+        <TextBox x:Name="txtManufacturer" HorizontalAlignment="Left" Margin="175,156,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="30" Width="100" Background="LightGray" BorderBrush="RoyalBlue"/>
+        <TextBox x:Name="txtEngineSize" HorizontalAlignment="Left" Margin="175,195,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="30" Width="100" Background="LightGray" BorderBrush="RoyalBlue"/>
+        <TextBox x:Name="txtCurrentOdometer" HorizontalAlignment="Left" Margin="175,278,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="30" Width="100" Background="LightGray" BorderBrush="RoyalBlue"/>
+        <TextBox x:Name="txtNextOdometer" HorizontalAlignment="Left" Margin="175,324,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="30" Width="100" Background="LightGray" BorderBrush="RoyalBlue"/>
+        <TextBox x:Name="txtVehicleType" HorizontalAlignment="Left" Margin="175,121,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="30" Width="100" Background="LightGray" BorderBrush="RoyalBlue"/>
+        <Button x:Name="addBtn" Content="Add Vehicle" HorizontalAlignment="Left" Margin="42,386,0,0" VerticalAlignment="Top" Height="32" Width="73" Click="addBtn_Click"/>
+
     </Grid>
 </Page>

@@ -106,6 +106,8 @@ C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\bin\Debug
 C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\bin\Debug\CustomClassLibrary.dll
 C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\bin\Debug\CustomClassLibrary.pdb
 C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\Cargo-Fleet-Tracking-System.csproj.AssemblyReference.cache
+C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\Cargo-Fleet-Tracking-System.csproj.SuggestedBindingRedirects.cache
+C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\CallServices.g.cs
 C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\Dashboard.g.cs
 C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\DashboardPage.g.cs
 C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\EmployeesPage.g.cs
@@ -114,10 +116,13 @@ C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug
 C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\Login.g.cs
 C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\ProfilePage.g.cs
 C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\ProfilePage_Content_Frame.g.cs
+C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\ServicePage.g.cs
+C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\TripsPage.g.cs
 C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\VehiclePage.g.cs
 C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\App.g.cs
 C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\Cargo-Fleet-Tracking-System_MarkupCompile.cache
 C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\Cargo-Fleet-Tracking-System_MarkupCompile.lref
+C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\CallServices.baml
 C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\Dashboard.baml
 C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\DashboardPage.baml
 C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\EmployeesPage.baml
@@ -126,6 +131,8 @@ C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug
 C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\Login.baml
 C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\ProfilePage.baml
 C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\ProfilePage_Content_Frame.baml
+C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\ServicePage.baml
+C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\TripsPage.baml
 C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\VehiclePage.baml
 C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\Cargo-Fleet-Tracking-System.g.resources
 C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\Cargo_Fleet_Tracking_System.Properties.Resources.resources
@@ -134,6 +141,3 @@ C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug
 C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\Cargo-Fleet-Tracking-System.csproj.CopyComplete
 C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\Cargo-Fleet-Tracking-System.exe
 C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\Cargo-Fleet-Tracking-System.pdb
-C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\Cargo-Fleet-Tracking-System.csproj.SuggestedBindingRedirects.cache
-C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\ServicePage.g.cs
-C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\ServicePage.baml
