@@ -138,5 +138,57 @@ namespace Cargo_Fleet_Tracking_System
             CallServices serv = new CallServices();
             serv.Show();
         }
+
+        private void btnUpdateDaily_Click(object sender, RoutedEventArgs e)
+        {
+            UpdateDaily();
+        }
+
+        public void UpdateDaily()
+        {
+            try
+            {
+                con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\sinel\\Documents\\UserLog.mdf;Integrated Security=True;Connect Timeout=30");
+                con.Open();
+                cmd = new SqlCommand("Update DailyAppointment SET VehicleNo = '" + txtVehicleNo.Text + "'" + ", " + "Appointment = '" + appointDate.SelectedDate + "'" + ", " + "Services = '" + txtService.Text + "'" + ", " + "ProcedureCode = '" + txtCode.Text + "'" + ", " + "Description = '" + txtDescription.Text + "'" + " WHERE Id = '" + txtUserID.Text + "'", con);
+                cmd.ExecuteNonQuery();
+                con.Close();
+            }
+            catch (Exception E)
+            {
+
+                MessageBox.Show(E.Message);
+            }
+           
+        }
+
+        public void UpdateWeekly()
+        {
+            try
+            {
+                con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\sinel\\Documents\\UserLog.mdf;Integrated Security=True;Connect Timeout=30");
+                con.Open();
+                cmd = new SqlCommand("Update WeeklyAppointment SET VehicleNo = '" + txtVehicleNo.Text + "'" + ", " + "Appointment = '" + appointDate.SelectedDate + "'" + ", " + "Services = '" + txtService.Text + "'" + ", " + "ProcedureCode = '" + txtCode.Text + "'" + ", " + "Description = '" + txtDescription.Text + "'" + " WHERE Id = '" + txtUserID.Text + "'", con);
+                cmd.ExecuteNonQuery();
+                con.Close();
+            }
+            catch (Exception E)
+            {
+
+                MessageBox.Show(E.Message);
+            }
+
+        }
+
+        private void btnUpdateWeekly_Click(object sender, RoutedEventArgs e)
+        {
+            UpdateWeekly();
+        }
+
+        private void refreshBtn_Click(object sender, RoutedEventArgs e)
+        {
+            ShowWeeklyData();
+            ShowDailyData();
+        }
     }
 }

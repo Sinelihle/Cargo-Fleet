@@ -38,42 +38,69 @@ namespace Cargo_Fleet_Tracking_System
 
         public void ViewTrip()
         {
-            con = new SqlConnection("Data Source = (LocalDB)\\MSSQLLocalDB; AttachDbFilename = C:\\Users\\sinel\\Documents\\UserLog.mdf; Integrated Security = True; Connect Timeout = 30");
-            con.Open();
-            cmd = new SqlCommand("select * from Trip", con);
-            cmd.ExecuteNonQuery();
-            DataTable dt = new DataTable();
-            SqlDataAdapter adapt = new SqlDataAdapter(cmd);
-            adapt.Fill(dt);
-            gridTrips.ItemsSource = dt.DefaultView;
-            adapt.Update(dt);
-            con.Close();
+            try
+            {
+                con = new SqlConnection("Data Source = (LocalDB)\\MSSQLLocalDB; AttachDbFilename = C:\\Users\\sinel\\Documents\\UserLog.mdf; Integrated Security = True; Connect Timeout = 30");
+                con.Open();
+                cmd = new SqlCommand("select * from Trip", con);
+                cmd.ExecuteNonQuery();
+                DataTable dt = new DataTable();
+                SqlDataAdapter adapt = new SqlDataAdapter(cmd);
+                adapt.Fill(dt);
+                gridTrips.ItemsSource = dt.DefaultView;
+                adapt.Update(dt);
+                con.Close();
+            }
+            catch (Exception E)
+            {
+
+                MessageBox.Show(E.Message);
+            }
+         
         }
 
         public void AddTrip()
         {
-            con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\sinel\\Documents\\UserLog.mdf;Integrated Security=True;Connect Timeout=30");
-            con.Open();
-            cmd = new SqlCommand("insert into Trip values(@Destination, @Kilometres)", con);
-            cmd.Parameters.AddWithValue("@Destination", txtDestination.Text);
-            cmd.Parameters.AddWithValue("@Kilometres", txtTravelled.Text);
-            cmd.ExecuteNonQuery();
-            con.Close();
-            MessageBox.Show("Trip Added");
+            try
+            {
+                con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\sinel\\Documents\\UserLog.mdf;Integrated Security=True;Connect Timeout=30");
+                con.Open();
+                cmd = new SqlCommand("insert into Trip values(@Destination, @Kilometres)", con);
+                cmd.Parameters.AddWithValue("@Destination", txtDestination.Text);
+                cmd.Parameters.AddWithValue("@Kilometres", txtTravelled.Text);
+                cmd.ExecuteNonQuery();
+                con.Close();
+                MessageBox.Show("Trip Added");
+            }
+            catch (Exception E)
+            {
+
+                MessageBox.Show(E.Message);
+            }
+          
         }
 
         public void ViewWeeklyTrip()
         {
-            con = new SqlConnection("Data Source = (LocalDB)\\MSSQLLocalDB; AttachDbFilename = C:\\Users\\sinel\\Documents\\UserLog.mdf; Integrated Security = True; Connect Timeout = 30");
-            con.Open();
-            cmd = new SqlCommand("select * from WeeklyTrip", con);
-            cmd.ExecuteNonQuery();
-            DataTable dt = new DataTable();
-            SqlDataAdapter adapt = new SqlDataAdapter(cmd);
-            adapt.Fill(dt);
-            gridTrips.ItemsSource = dt.DefaultView;
-            adapt.Update(dt);
-            con.Close();
+            try
+            {
+                con = new SqlConnection("Data Source = (LocalDB)\\MSSQLLocalDB; AttachDbFilename = C:\\Users\\sinel\\Documents\\UserLog.mdf; Integrated Security = True; Connect Timeout = 30");
+                con.Open();
+                cmd = new SqlCommand("select * from WeeklyTrip", con);
+                cmd.ExecuteNonQuery();
+                DataTable dt = new DataTable();
+                SqlDataAdapter adapt = new SqlDataAdapter(cmd);
+                adapt.Fill(dt);
+                gridTrips.ItemsSource = dt.DefaultView;
+                adapt.Update(dt);
+                con.Close();
+            }
+            catch (Exception E)
+            {
+
+                MessageBox.Show(E.Message);
+            }
+        
         }
 
         public void AddWeeklyTrip()

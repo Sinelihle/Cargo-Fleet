@@ -59,15 +59,23 @@ namespace Cargo_Fleet_Tracking_System
             email = txtEmail.Text;
             phoneNumber = Convert.ToInt32(txtPhone.Text);
 
-            con = new SqlConnection("Data Source = (LocalDB)\\MSSQLLocalDB; AttachDbFilename = C:\\Users\\sinel\\Documents\\UserLog.mdf; Integrated Security = True; Connect Timeout = 30");
-            con.Open();
-            cmd = new SqlCommand("insert into EmployeeDetails values(@FirstName, @LastName, @Email, @PhoneNumber)", con);
-            cmd.Parameters.AddWithValue("@FirstName", txtFirstName.Text);
-            cmd.Parameters.AddWithValue("@LastName", txtLastName.Text);
-            cmd.Parameters.AddWithValue("@Email", txtEmail.Text);
-            cmd.Parameters.AddWithValue("@PhoneNumber", txtPhone.Text);
-            cmd.ExecuteNonQuery();
-            MessageBox.Show("User Saved Successfully");
+            try
+            {
+                con = new SqlConnection("Data Source = (LocalDB)\\MSSQLLocalDB; AttachDbFilename = C:\\Users\\sinel\\Documents\\UserLog.mdf; Integrated Security = True; Connect Timeout = 30");
+                con.Open();
+                cmd = new SqlCommand("insert into EmployeeDetails values(@FirstName, @LastName, @Email, @PhoneNumber)", con);
+                cmd.Parameters.AddWithValue("@FirstName", txtFirstName.Text);
+                cmd.Parameters.AddWithValue("@LastName", txtLastName.Text);
+                cmd.Parameters.AddWithValue("@Email", txtEmail.Text);
+                cmd.Parameters.AddWithValue("@PhoneNumber", txtPhone.Text);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("User Saved Successfully");
+            }
+            catch(Exception E)
+            {
+                MessageBox.Show(E.Message);
+            }
+        
         }
 
         

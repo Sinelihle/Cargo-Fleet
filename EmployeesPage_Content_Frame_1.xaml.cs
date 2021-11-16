@@ -32,18 +32,25 @@ namespace Cargo_Fleet_Tracking_System
 
         public void ViewData()
         {
-            
-            con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\sinel\\Documents\\UserLog.mdf;Integrated Security=True;Connect Timeout=30");
-            con.Open();
-            cmd = new SqlCommand("select CONCAT(FirstName,' ', LastName) AS FullName from EmployeeDetails", con);
-            //cmd.ExecuteNonQuery();
-            SqlDataReader dr = cmd.ExecuteReader();
-            while (dr.Read())
+            try
             {
-                string data = dr.GetString(0);
-                lstUsers.Items.Add(data);
+                con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\sinel\\Documents\\UserLog.mdf;Integrated Security=True;Connect Timeout=30");
+                con.Open();
+                cmd = new SqlCommand("select CONCAT(FirstName,' ', LastName) AS FullName from EmployeeDetails", con);
+                //cmd.ExecuteNonQuery();
+                SqlDataReader dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+                    string data = dr.GetString(0);
+                    lstUsers.Items.Add(data);
+                }
+                con.Close();
             }
-            con.Close();
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+          
         }
          
         }

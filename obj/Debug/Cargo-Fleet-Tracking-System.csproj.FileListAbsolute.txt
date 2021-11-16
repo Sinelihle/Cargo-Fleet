@@ -141,3 +141,5 @@ C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug
 C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\Cargo-Fleet-Tracking-System.csproj.CopyComplete
 C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\Cargo-Fleet-Tracking-System.exe
 C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\Cargo-Fleet-Tracking-System.pdb
+C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\trackHours.g.cs
+C:\Cargo Final\Cargo-Fleet-Tracking-System\Cargo-Fleet-Tracking-System\obj\Debug\trackHours.baml

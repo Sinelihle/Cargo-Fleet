@@ -21,7 +21,7 @@ namespace Cargo_Fleet_Tracking_System
     public partial class Dashboard : Window
     {
         DispatcherTimer timer;
-
+        Login log = new Login();
         double panelWidth;
         bool hidden;
         public Dashboard()
@@ -30,7 +30,11 @@ namespace Cargo_Fleet_Tracking_System
             timer = new DispatcherTimer();
             timer.Interval = new TimeSpan(0, 0, 0, 0, 1);
             timer.Tick += Timer_Tick;
-
+            //disable track hours
+            //if(log.comboUserType.SelectedIndex != 4)
+            //{
+            //    trackBtn.IsEnabled = false;
+            //}
 
             panelWidth = sidePanel.Width;
         }
@@ -100,6 +104,10 @@ namespace Cargo_Fleet_Tracking_System
         private void TripsPgae_Selected(object sender, RoutedEventArgs e)
         {
             Main.Content = new TripsPage();
+        }
+        private void ListViewItem_Selected(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new trackHours();
         }
     }
 }

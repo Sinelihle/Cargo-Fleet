@@ -24,8 +24,13 @@
         <DatePicker x:Name="appointDate" HorizontalAlignment="Left" Margin="170,134,0,0" VerticalAlignment="Top"/>
         <Label Content="Daily Service" FontWeight="Bold" HorizontalAlignment="Left" Margin="291,336,0,0" VerticalAlignment="Top" Width="182"/>
         <Label Content="Weekly Services" FontWeight="Bold" HorizontalAlignment="Left" Margin="291,84,0,0" VerticalAlignment="Top" Width="182"/>
-        <DataGrid x:Name="dailyGrid" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="291,384,10,96"/>
+        <DataGrid x:Name="dailyGrid" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="291,357,10,123"/>
         <Button Content="CALL service job ?" BorderBrush="Transparent" Background="Transparent" Foreground="Blue" HorizontalAlignment="Left" Margin="84,446,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button x:Name="btnUpdateDaily" Content="Update Daily by ID" HorizontalAlignment="Left" Margin="26,509,0,0" VerticalAlignment="Top" Height="35" Width="103" Click="btnUpdateDaily_Click"/>
+        <Label Content="UserID" HorizontalAlignment="Left" Margin="26,469,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtUserID" HorizontalAlignment="Left" Margin="78,473,0,0" BorderBrush="RoyalBlue" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnUpdateWeekly" Content="Update Weekly by ID" HorizontalAlignment="Left" Margin="168,509,0,0" VerticalAlignment="Top" Height="35" Width="123" Click="btnUpdateWeekly_Click"/>
+        <Button x:Name="refreshBtn" Content="Refresh" HorizontalAlignment="Left" Margin="323,509,0,0" VerticalAlignment="Top" Height="35" Width="84" Click="refreshBtn_Click"/>
 
     </Grid>
 </Page>

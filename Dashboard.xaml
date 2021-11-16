@@ -178,7 +178,7 @@
                             <TextBlock Margin="36 0 0 0" Text="Trips" VerticalAlignment="Center" Foreground="#FF7E7E7E"/>
                         </StackPanel>
                     </ListViewItem>
-                    <ListViewItem x:Name="trackHours" Height="30"  Width="150">
+                    <ListViewItem x:Name="trackBtn" Height="30" Width="150" Selected="ListViewItem_Selected">
                         <ListViewItem.Background>
                             <ImageBrush ImageSource="employees.png" Stretch="Uniform">
                                 <ImageBrush.Transform>
@@ -191,10 +191,7 @@
                                 </ImageBrush.Transform>
                             </ImageBrush>
                         </ListViewItem.Background>
-                        <StackPanel Orientation="Horizontal">
-
-                            <TextBlock Margin="36 0 0 0" Text="Track Hours" VerticalAlignment="Center" Foreground="#FF7E7E7E"/>
-                        </StackPanel>
+                        <TextBlock Margin="36 0 0 0" Text="Track Hours" VerticalAlignment="Center" Foreground="#FF7E7E7E"/>
                     </ListViewItem>
                 </ListView>
             </StackPanel>
